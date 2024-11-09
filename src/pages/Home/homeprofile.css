@@ -1,0 +1,62 @@
+.outer-div{
+    height: 75vh;
+    width: 30%;
+    background-color: rgb(201, 189, 237);
+    margin-left:5%;
+    /* margin-top: 7%; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.2);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-photo {
+    height: 50%;
+    width: 55%;
+    border-radius: 10px;
+}
+.profile-photo img{
+    border-radius: 10px;
+}
+.professor-name{
+    width: 55%;
+    height: 8%;
+    background-color: rgb(202, 202, 213);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(31, 3, 57);
+}
+.qualification{
+    width: 95%;
+    height: 8%;
+    margin-top: 14px;
+    color: rgb(31, 3, 57);
+    display: flex;
+}
+.contact{
+    width: 95%;
+    height: 5%;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 15px;
+    color: rgb(31, 3, 57);
+    text-align: left;
+}
+.contact-details{
+    width: 95%;
+    height: 20%;
+    border-top: 1px solid black;
+    color: rgb(31, 3, 57);
+}
+.phone{
+    display: flex;
+    padding-top: 10px;
+}
+.email{
+    display: flex;
+}
+.web-profile{
+    display: flex;
+    margin-top: 4px;
+    font-weight: bolder; 
+}

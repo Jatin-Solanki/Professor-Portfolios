@@ -1,0 +1,44 @@
+.outer{
+    width: 60%;
+    height: 80vh;
+    margin-left: 40px;
+    /* margin-top: 7%; */
+}
+.outer h2{
+    color: rgb(31, 3, 57);;
+}
+.profile{
+    /* height: 33%; */
+    width: 100%;
+    border-top: 1px solid black;
+}
+.profile p{
+    margin-top: 5px;
+}
+.research-interest{
+    /* height: 33%; */
+    width: 100%;
+    border-top: 1px solid black;
+}
+.research-interest ul{
+    margin-top: 5px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+.research-interest ul li{
+    margin-bottom: 5px;
+    
+}
+.teaching-interest{
+    /* height: 33%; */
+    width: 100%;
+    border-top: 1px solid black;
+}
+.teaching-interest ul{
+    margin-top: 5px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+.teaching-interest ul li{
+    margin-bottom: 5px;
+}
