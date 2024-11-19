@@ -1,5 +1,6 @@
 import{Outlet} from "react-router-dom"
 import { Navbar } from "../components/Navbar/Navbar"
+import Nav from "../components/NitinNavBar/Nav"
 let titles=[
     {name:"Home",link:"/"},
     {name:"About me",link:"/about"},
@@ -12,6 +13,7 @@ export const AppLayout=()=>{
     return(
         <>
             <Navbar titles={titles}/>
+            {/* <Nav/> */}
             <Outlet/>
         </>
     )

@@ -1,5 +1,6 @@
 import { HomeProfile } from "./homeprofile"
 import { Homedetails } from "./homedetails"
+import './homepage.css'
 
 let details={
   name:"Jatin Solanki",
@@ -17,9 +18,14 @@ const prof_details=[["The About Me or Profile section of your portfolio, is a sh
 export const HomePage=()=>{
     return(
         <>
-        <div className="combine" style={{marginTop:"100px"}}>
-            <HomeProfile  details={details} /> 
-            <Homedetails prof_details={prof_details}/>            
+        <div className="combine">
+            <div className="home-profile">
+                <HomeProfile details={details} /> 
+            </div>
+            <div className="home-details">
+                <Homedetails prof_details={prof_details}/>   
+            </div>
+                     
         </div>
         </>
     )

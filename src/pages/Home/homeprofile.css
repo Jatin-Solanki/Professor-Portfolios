@@ -1,11 +1,10 @@
 .outer-div{
-    height: 75vh;
-    width: 30%;
+
     background-color: rgb(201, 189, 237);
-    margin-left:5%;
+
     /* margin-top: 7%; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.2);
-    padding-top: 20px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,6 +13,7 @@
     height: 50%;
     width: 55%;
     border-radius: 10px;
+    margin-top: 20px;
 }
 .profile-photo img{
     border-radius: 10px;

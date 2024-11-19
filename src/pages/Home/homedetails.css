@@ -1,9 +1,11 @@
-.outer{
+/* .outer{
     width: 60%;
     height: 80vh;
     margin-left: 40px;
-    /* margin-top: 7%; */
-}
+} */
+ .outer{
+    margin-top: 20px;
+ }
 .outer h2{
     color: rgb(31, 3, 57);;
 }
